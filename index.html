@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chilas Studio laver moderne, professionelle og mobilvenlige hjemmesider til virksomheder." />
+  <meta name="theme-color" content="#07090f" />
+  <meta property="og:title" content="Chilas Studio — Websites til virksomheder" />
+  <meta property="og:description" content="Professionelle websites med stærkt design, høj brugervenlighed og et eksklusivt udtryk." />
+  <meta property="og:type" content="website" />
+  <title>Chilas Studio — Websites til virksomheder</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=90">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="nav-shell">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Chilas Studio">
+        <span class="brand-dot"></span>
+        <span>CHILAS<span class="brand-muted">/STUDIO</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Åbn menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#work">Webdesign</a>
+        <a href="#process">Proces</a>
+        <a href="#reviews">Anmeldelser</a>
+        <a href="#about">Om mig</a>
+        <a class="nav-cta" href="#contact">Start et projekt <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-orb hero-orb-one"></div>
+      <div class="hero-orb hero-orb-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="availability">
+            <span class="pulse"></span>
+            Klar til nye projekter
+          </div>
+
+          <h1>
+            Websites der får
+            <span class="gradient-text">virksomheder til at se større ud.</span>
+          </h1>
+
+          <p class="hero-lead">
+            Jeg hedder Chilas. Jeg designer og bygger professionelle hjemmesider til virksomheder, der vil have et stærkere digitalt udtryk — uden unødvendigt bøvl.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary magnetic" href="#contact">
+              Lad os tage en snak <span>↗</span>
+            </a>
+            <a class="button button-ghost" href="#work">
+              Se design-eksempler
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <strong>01</strong>
+              <span>Mobilvenligt</span>
+            </div>
+            <div>
+              <strong>02</strong>
+              <span>Unikt design</span>
+            </div>
+            <div>
+              <strong>03</strong>
+              <span>Klar til eget domæne</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-showcase reveal">
+          <div class="portrait-frame">
+            <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=90" alt="Moderne kreativ arbejdsplads med fokus på webdesign" />
+            <div class="portrait-shine"></div>
+          </div>
+
+          <div class="floating-card card-a">
+            <span class="mini-label">Designfokus</span>
+            <strong>Rent. Moderne. Professionelt.</strong>
+          </div>
+
+          <div class="floating-card card-b">
+            <span class="mini-label">Kontakt</span>
+            <strong>51 14 40 46</strong>
+          </div>
+
+          <div class="floating-browser">
+            <div class="browser-bar">
+              <div class="browser-dots"><i></i><i></i><i></i></div>
+              <div class="browser-url">yourbusiness.dk</div>
+            </div>
+            <div class="browser-content">
+              <div class="browser-pill"></div>
+              <div class="browser-title"></div>
+              <div class="browser-title small"></div>
+              <div class="browser-buttons">
+                <div></div><div></div>
+              </div>
+              <div class="browser-grid">
+                <div></div><div></div><div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container marquee-wrap reveal">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>WEBDESIGN</span><b>✦</b>
+            <span>MOBILVENLIGT</span><b>✦</b>
+            <span>MODERNE DESIGN</span><b>✦</b>
+            <span>GOOGLE ANMELDELSER</span><b>✦</b>
+            <span>DOMÆNE & LANCERING</span><b>✦</b>
+            <span>WEBDESIGN</span><b>✦</b>
+            <span>MOBILVENLIGT</span><b>✦</b>
+            <span>MODERNE DESIGN</span><b>✦</b>
+            <span>GOOGLE ANMELDELSER</span><b>✦</b>
+            <span>DOMÆNE & LANCERING</span><b>✦</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">Hvad jeg laver</span>
+            <h2>Alt det vigtigste.<br><span>Uden støj.</span></h2>
+          </div>
+          <p>
+            En virksomhedshjemmeside skal være flot, hurtig og nem at forstå. Jeg bygger sider, hvor design og brugervenlighed arbejder sammen.
+          </p>
+        </div>
+
+        <div class="service-bento">
+          <article class="service-card service-feature reveal">
+            <div class="service-number">01</div>
+            <div>
+              <span class="service-tag">Webdesign</span>
+              <h3>Et visuelt udtryk der passer til virksomheden.</h3>
+              <p>
+                Ikke en generisk skabelon. Farver, typografi, billeder, spacing og opbygning tilpasses, så hjemmesiden føles som virksomhedens egen.
+              </p>
+            </div>
+            <div class="design-system-demo">
+              <div class="design-col">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="design-preview">
+                <div class="preview-nav"></div>
+                <div class="preview-heading"></div>
+                <div class="preview-line"></div>
+                <div class="preview-btn"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">02</div>
+            <div class="icon-chip">⌁</div>
+            <h3>Mobil først</h3>
+            <p>Designet til at føles lige så godt på telefonen som på en stor skærm.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">03</div>
+            <div class="icon-chip">★</div>
+            <h3>Google anmeldelser</h3>
+            <p>Google-anmeldelser kan integreres, når virksomhedens Google Business-profil er klar.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">04</div>
+            <div class="icon-chip">↗</div>
+            <h3>Domæne & lancering</h3>
+            <p>Jeg kan hjælpe med at få siden online og koble virksomhedens eget domæne på.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">05</div>
+            <div class="icon-chip">✉</div>
+            <h3>Kontakt der virker</h3>
+            <p>Telefon, mail, formular og sociale medier placeres tydeligt, så kunderne nemt kan tage kontakt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">Design-retninger</span>
+            <h2>Forskellige virksomheder.<br><span>Forskellige udtryk.</span></h2>
+          </div>
+          <p>
+            Her er tre demo-koncepter. De er ikke rigtige kundecases — de viser, hvor forskelligt en hjemmeside kan bygges op.
+          </p>
+        </div>
+
+        <div class="showcase-tabs reveal">
+          <button class="showcase-tab active" data-slide="0">Restaurant</button>
+          <button class="showcase-tab" data-slide="1">Frisør</button>
+          <button class="showcase-tab" data-slide="2">Håndværker</button>
+        </div>
+
+        <div class="showcase-stage reveal">
+          <div class="showcase-slide active" data-index="0">
+            <div class="showcase-info">
+              <span class="case-number">Concept 01</span>
+              <h3>En restaurant-side med appetit og tydelige valg.</h3>
+              <p>Visuelt fokus, nem menu, åbningstider og en direkte vej til kontakt eller bestilling.</p>
+              <div class="case-tags"><span>Menu</span><span>Takeaway</span><span>Mobil</span></div>
+            </div>
+
+            <div class="device-scene restaurant-scene">
+              <div class="desktop-window">
+                <div class="window-top"><i></i><i></i><i></i><span>restaurant.dk</span></div>
+                <div class="rest-hero">
+                  <div class="rest-copy">
+                    <small>FRESH · LOCAL · DAILY</small>
+                    <strong>GOOD FOOD.<br>NO FUSS.</strong>
+                    <span></span>
+                  </div>
+                  <div class="rest-image"></div>
+                </div>
+                <div class="rest-cards"><div></div><div></div><div></div></div>
+              </div>
+              <div class="phone-window">
+                <div class="phone-notch"></div>
+                <div class="phone-screen food-phone">
+                  <span class="phone-brand">BITE.</span>
+                  <div class="phone-food"></div>
+                  <strong>Fresh<br>every day.</strong>
+                  <button>View menu</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-slide" data-index="1">
+            <div class="showcase-info">
+              <span class="case-number">Concept 02</span>
+              <h3>En elegant salon-side med ro og premium-følelse.</h3>
+              <p>Store billeder, enkel navigation, behandlinger, anmeldelser og bookingfokus.</p>
+              <div class="case-tags"><span>Booking</span><span>Galleri</span><span>Premium</span></div>
+            </div>
+
+            <div class="device-scene salon-scene">
+              <div class="desktop-window salon-window">
+                <div class="window-top light"><i></i><i></i><i></i><span>studio-noir.dk</span></div>
+                <div class="salon-layout">
+                  <div class="salon-copy">
+                    <small>STUDIO NOIR</small>
+                    <strong>HAIR,<br>SIMPLIFIED.</strong>
+                    <p>Calm space. Great hair.</p>
+                  </div>
+                  <div class="salon-photo"></div>
+                </div>
+                <div class="salon-footer"><span>01 / CUT</span><span>02 / COLOR</span><span>03 / STYLE</span></div>
+              </div>
+              <div class="rating-pop">
+                <span>Google</span>
+                <strong>★★★★★</strong>
+                <small>Reviews integrated</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-slide" data-index="2">
+            <div class="showcase-info">
+              <span class="case-number">Concept 03</span>
+              <h3>En skarp håndværker-side bygget til tillid.</h3>
+              <p>Ydelser, cases, kontakt og troværdighed — struktureret så kunden hurtigt finder det vigtigste.</p>
+              <div class="case-tags"><span>Ydelser</span><span>Cases</span><span>Kontakt</span></div>
+            </div>
+
+            <div class="device-scene craft-scene">
+              <div class="desktop-window craft-window">
+                <div class="window-top"><i></i><i></i><i></i><span>nordbyg.dk</span></div>
+                <div class="craft-head">
+                  <span>NORDBYG / 2026</span>
+                  <strong>VI BYGGER<br>DET ORDENTLIGT.</strong>
+                  <div class="craft-btn">Få et tilbud ↗</div>
+                </div>
+                <div class="craft-stats">
+                  <div><b>15+</b><span>års erfaring</span></div>
+                  <div><b>250</b><span>projekter</span></div>
+                  <div><b>4.9</b><span>Google rating</span></div>
+                </div>
+              </div>
+              <div class="project-card">
+                <span>Seneste projekt</span>
+                <div class="project-image"></div>
+                <strong>Renovering / Svendborg</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-progress reveal">
+          <span id="progressNumber">01</span>
+          <div class="progress-line"><div id="progressFill"></div></div>
+          <span>03</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="why section-pad">
+      <div class="container why-grid">
+        <div class="why-copy reveal">
+          <span class="kicker">Hvorfor arbejde med mig?</span>
+          <h2>En enkel proces.<br><span>Et resultat der føles dyrt.</span></h2>
+          <p>
+            Du behøver ikke vide noget om kode eller hosting. Vi finder ud af, hvad hjemmesiden skal kunne, og jeg sørger for resten af den tekniske opbygning.
+          </p>
+          <a href="#contact" class="text-link">Fortæl mig om din virksomhed <span>↗</span></a>
+        </div>
+
+        <div class="why-list">
+          <article class="why-row reveal">
+            <span>01</span>
+            <div><strong>Personlig løsning</strong><p>Designet bliver bygget ud fra virksomhedens stil — ikke bare kopieret fra en tilfældig skabelon.</p></div>
+          </article>
+          <article class="why-row reveal">
+            <span>02</span>
+            <div><strong>Let at forstå</strong><p>Navigation og indhold skal give mening med det samme, også for kunder der bare hurtigt vil finde et telefonnummer.</p></div>
+          </article>
+          <article class="why-row reveal">
+            <span>03</span>
+            <div><strong>Nem at opdatere</strong><p>Tekster, billeder, åbningstider og sektioner kan ændres igen senere.</p></div>
+          </article>
+          <article class="why-row reveal">
+            <span>04</span>
+            <div><strong>Klar til vækst</strong><p>Siden kan udvides med flere undersider, anmeldelser, formularer og andre funktioner efter behov.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section-pad" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">Fra idé til online</span>
+            <h2>Sådan foregår det.</h2>
+          </div>
+          <p>Ingen kompliceret proces. Vi tager det trin for trin.</p>
+        </div>
+
+        <div class="process-line">
+          <article class="process-item reveal">
+            <div class="process-dot"></div>
+            <span>01</span>
+            <h3>Vi tager en snak</h3>
+            <p>Du fortæller, hvad virksomheden laver, og hvilken stil du ønsker.</p>
+          </article>
+          <article class="process-item reveal">
+            <div class="process-dot"></div>
+            <span>02</span>
+            <h3>Jeg laver designet</h3>
+            <p>Jeg bygger en første version, som du kan se og komme med feedback på.</p>
+          </article>
+          <article class="process-item reveal">
+            <div class="process-dot"></div>
+            <span>03</span>
+            <h3>Vi finpudser</h3>
+            <p>Tekster, billeder, sektioner og detaljer bliver tilpasset.</p>
+          </article>
+          <article class="process-item reveal">
+            <div class="process-dot"></div>
+            <span>04</span>
+            <h3>Siden går live</h3>
+            <p>Domænet forbindes, og hjemmesiden bliver klar til kunderne.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section-pad" id="reviews">
+      <div class="container reviews-grid">
+        <div class="reviews-copy reveal">
+          <span class="kicker">Google anmeldelser</span>
+          <h2>Social proof,<br><span>hvor det betyder noget.</span></h2>
+          <p>
+            Har virksomheden en Google Business-profil, kan anmeldelser vises på hjemmesiden. Det giver besøgende et hurtigt indtryk af, hvad andre kunder siger.
+          </p>
+          <div class="google-demo">
+            <div class="google-g">G</div>
+            <div>
+              <strong>Google Reviews</strong>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <small class="review-note">Demo-visning — rigtige anmeldelser kræver forbindelse til virksomhedens Google-profil.</small>
+        </div>
+
+        <div class="review-wall reveal">
+          <div class="review-placeholder">
+            <div class="review-head"><span class="avatar">A</span><div><b>Kundenavn</b><small>Google</small></div></div>
+            <div class="stars">★★★★★</div>
+            <p>Her kan en rigtig Google-anmeldelse vises, når virksomhedens profil bliver forbundet.</p>
+          </div>
+          <div class="review-placeholder offset">
+            <div class="review-head"><span class="avatar">M</span><div><b>Kundenavn</b><small>Google</small></div></div>
+            <div class="stars">★★★★★</div>
+            <p>Anmeldelser kan bruges som troværdighed direkte på forsiden eller en separat anmeldelsesside.</p>
+          </div>
+          <div class="review-placeholder">
+            <div class="review-head"><span class="avatar">K</span><div><b>Kundenavn</b><small>Google</small></div></div>
+            <div class="stars">★★★★★</div>
+            <p>Designet kan tilpasses, så anmeldelserne passer naturligt ind i resten af hjemmesiden.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="container about-grid">
+        <div class="about-image reveal">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=90" alt="Moderne kontormiljø til digitalt design" />
+          <div class="about-label">CHILAS / WEB DESIGN</div>
+        </div>
+
+        <div class="about-copy reveal">
+          <span class="kicker">Om mig</span>
+          <h2>Jeg gør hjemmesider<br><span>mere gennemførte.</span></h2>
+          <p>
+            Jeg hedder Chilas og arbejder med at lave hjemmesider til virksomheder. Jeg går efter et moderne, professionelt og overskueligt udtryk, hvor designet ikke bare ser godt ud — men også gør siden nem at bruge.
+          </p>
+          <p>
+            Jeg kan hjælpe med alt fra den første demo til en færdig hjemmeside på virksomhedens eget domæne.
+          </p>
+
+          <div class="about-contact">
+            <a href="tel:+4551144046" class="js-phone-link"><span>Telefon</span><strong>51 14 40 46</strong></a>
+            <a href="mailto:chilasclaville@gmail.com" class="js-email-link"><span>E-mail</span><strong>chilasclaville@gmail.com</strong></a>
+            <a href="https://www.instagram.com/chilasclaville/" target="_blank" rel="noopener"><span>Instagram</span><strong>@chilasclaville</strong></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-shell reveal">
+        <div class="contact-main">
+          <span class="kicker">Start et projekt</span>
+          <h2>Har din virksomhed brug for en <span>bedre hjemmeside?</span></h2>
+          <p>
+            Send mig en besked med lidt om virksomheden og hvad du har i tankerne. Så kan vi tage en uforpligtende snak om mulighederne.
+          </p>
+
+          <div class="contact-actions">
+            <a class="button button-primary magnetic" href="mailto:chilasclaville@gmail.com" class="js-email-link">Send en mail <span>↗</span></a>
+            <a class="button button-ghost" href="tel:+4551144046" class="js-phone-link">Ring 51 14 40 46</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="field-row">
+            <label>
+              <span>Navn</span>
+              <input id="name" type="text" placeholder="Dit navn" required>
+            </label>
+            <label>
+              <span>Virksomhed</span>
+              <input id="business" type="text" placeholder="Virksomhedsnavn">
+            </label>
+          </div>
+          <label>
+            <span>E-mail</span>
+            <input id="email" type="email" placeholder="dinmail@firma.dk" required>
+          </label>
+          <label>
+            <span>Hvad skal siden kunne?</span>
+            <textarea id="message" rows="5" placeholder="Fortæl kort om virksomheden og hjemmesiden..." required></textarea>
+          </label>
+          <button type="submit" class="form-button">
+            Send forespørgsel <span>↗</span>
+          </button>
+          <small id="formStatus"></small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-top">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span>
+        <span>CHILAS<span class="brand-muted">/STUDIO</span></span>
+      </a>
+      <a class="footer-top-link" href="#top">Til toppen ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <span>Websites til virksomheder.</span>
+      <div>
+        <a href="mailto:chilasclaville@gmail.com" class="js-email-link">Mail</a>
+        <a href="tel:+4551144046" class="js-phone-link">Telefon</a>
+        <a href="https://www.instagram.com/chilasclaville/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Chilas Claville",
+    "email":"mailto:chilasclaville@gmail.com",
+    "telephone":"+45 51 14 40 46",
+    "sameAs":["https://instagram.com/chilasclaville"],
+    "knowsAbout":["Webdesign","Hjemmesider","Responsive web design"]
+  }
+  </script>
+
+  <div class="site-toast" id="siteToast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
